@@ -40,7 +40,19 @@
 // add1(5,6);
 // add1(7,8);
 
-function AddToCart(){
-    document.
+// function ispPalindrome(str){
+//     let revStr=" ";
+//     for (let i=str.length-1;i>=0;i--){
+//         revStr += str[i];
+//     }
+//     if(str == revStr){
+//         console.log("Palindrome");
 
-}
+//     }else{
+//         console.log("Not a palindrome");
+//     }
+
+// }
+// isPalindrome("sir");
+// isPalindrome("madam");
+// isPalindrome("malayalam");

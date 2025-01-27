@@ -1,0 +1,26 @@
+// public classpublic class CouplesHoldingHands{
+//     public static int minSwapsCouples(int[] row){
+//     int swaps = 0;
+//     for(int i =0; i<row.length;i+=2){
+//         int firstPerson = row[i];
+//         int expectedPerson = (firstPerson%2==0)?firstPerson+1:firstPerson-1;
+//         if(row[i+1]!=expectedPerson){
+//             swaps++;
+//             for(int j = i+1;j<row.length;j++){
+//                 if(row[j]==expectedPerson){
+//                     int temp = row[i+1];
+//                     row[i+1] = row[j];
+//                     row[j] = temp;
+//                     break;
+//                 }
+//             }
+//         }
+//     }
+//     return swaps;
+//     }
+//     public static void main(String[] args){
+//         int row[] = {3,1,4,0,2,5};
+//         int value1 =minSwapsCouples(row);
+//         System.out.println("minimum swaps needed:"+value1);
+//     }
+//     }
